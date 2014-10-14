@@ -14,7 +14,7 @@ class NavigationViewController: UINavigationController {
         super.viewDidLoad()
         self.navigationBar.barTintColor = UIColor.blackColor()
         self.navigationBar.translucent = true;
-        self.navigationItem.titleView?.tintColor = UIColor.whiteColor()
+        self.navigationItem.titleView?
         self.navigationBar
         // Do any additional setup after loading the view.
     }
