@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B326A3C019EC94E300ED1D6E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B326A3BF19EC94E300ED1D6E /* TableViewController.swift */; };
+		B326A3C219EC96B700ED1D6E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B326A3C119EC96B700ED1D6E /* TableViewCell.swift */; };
+		B326A3C419EDA94B00ED1D6E /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B326A3C319EDA94B00ED1D6E /* NavigationViewController.swift */; };
 		B3A185F319E9C6BC00C02336 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A185F219E9C6BC00C02336 /* AppDelegate.swift */; };
 		B3A185F619E9C6BC00C02336 /* CMUEats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3A185F419E9C6BC00C02336 /* CMUEats.xcdatamodeld */; };
-		B3A185F819E9C6BC00C02336 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A185F719E9C6BC00C02336 /* ViewController.swift */; };
 		B3A185FB19E9C6BC00C02336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A185F919E9C6BC00C02336 /* Main.storyboard */; };
 		B3A185FD19E9C6BC00C02336 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A185FC19E9C6BC00C02336 /* Images.xcassets */; };
 		B3A1860019E9C6BC00C02336 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A185FE19E9C6BC00C02336 /* LaunchScreen.xib */; };
 		B3A1860C19E9C6BC00C02336 /* CMUEatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A1860B19E9C6BC00C02336 /* CMUEatsTests.swift */; };
+		B3A1861819E9CFFC00C02336 /* Eatery.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A1861719E9CFFC00C02336 /* Eatery.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +30,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B326A3BF19EC94E300ED1D6E /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B326A3C119EC96B700ED1D6E /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		B326A3C319EDA94B00ED1D6E /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		B3A185ED19E9C6BC00C02336 /* CMUEats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMUEats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A185F119E9C6BC00C02336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3A185F219E9C6BC00C02336 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3A185F519E9C6BC00C02336 /* CMUEats.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CMUEats.xcdatamodel; sourceTree = "<group>"; };
-		B3A185F719E9C6BC00C02336 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3A185FA19E9C6BC00C02336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3A185FC19E9C6BC00C02336 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B3A185FF19E9C6BC00C02336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B3A1860519E9C6BC00C02336 /* CMUEatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMUEatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A1860A19E9C6BC00C02336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3A1860B19E9C6BC00C02336 /* CMUEatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMUEatsTests.swift; sourceTree = "<group>"; };
+		B3A1861719E9CFFC00C02336 /* Eatery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eatery.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +86,15 @@
 			isa = PBXGroup;
 			children = (
 				B3A185F219E9C6BC00C02336 /* AppDelegate.swift */,
-				B3A185F719E9C6BC00C02336 /* ViewController.swift */,
+				B326A3C319EDA94B00ED1D6E /* NavigationViewController.swift */,
+				B326A3BF19EC94E300ED1D6E /* TableViewController.swift */,
+				B326A3C119EC96B700ED1D6E /* TableViewCell.swift */,
 				B3A185F919E9C6BC00C02336 /* Main.storyboard */,
 				B3A185FC19E9C6BC00C02336 /* Images.xcassets */,
 				B3A185FE19E9C6BC00C02336 /* LaunchScreen.xib */,
 				B3A185F419E9C6BC00C02336 /* CMUEats.xcdatamodeld */,
 				B3A185F019E9C6BC00C02336 /* Supporting Files */,
+				B3A1861719E9CFFC00C02336 /* Eatery.swift */,
 			);
 			path = CMUEats;
 			sourceTree = "<group>";
@@ -215,8 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3A185F819E9C6BC00C02336 /* ViewController.swift in Sources */,
+				B326A3C419EDA94B00ED1D6E /* NavigationViewController.swift in Sources */,
+				B326A3C219EC96B700ED1D6E /* TableViewCell.swift in Sources */,
+				B3A1861819E9CFFC00C02336 /* Eatery.swift in Sources */,
 				B3A185F619E9C6BC00C02336 /* CMUEats.xcdatamodeld in Sources */,
+				B326A3C019EC94E300ED1D6E /* TableViewController.swift in Sources */,
 				B3A185F319E9C6BC00C02336 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +421,7 @@
 				B3A1861119E9C6BC00C02336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3A1861219E9C6BC00C02336 /* Build configuration list for PBXNativeTarget "CMUEatsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				B3A1861419E9C6BC00C02336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
